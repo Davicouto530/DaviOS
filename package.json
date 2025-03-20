@@ -1,0 +1,18 @@
+{
+  "name": "davios",
+  "version": "1.0.0",
+  "description": "Estudo de banco de dados com mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davi do couto",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0"
+  }
+}
