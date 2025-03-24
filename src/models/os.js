@@ -1,13 +1,13 @@
 /**
  * Modelo de dados para construção das coleções("tabelas")
- * clientes 
+ * Ordem de serviço 
  */
 
 //Importação dos recursos do framework mongoose
 const {model, Schema} = require('mongoose')
 const { version, type } = require('os')
 
-//Criação da estrutura da coleção Clientes
+//Criação da estrutura da coleção OS
 const cadastroOS = new Schema({
     nomeCliente: {
         type: String
@@ -45,7 +45,7 @@ const cadastroOS = new Schema({
 }, {versionKey: false}) //Não versionar os dados armazenadas
 
 //Exportar para o main o modelo de dados
-//Clientes será o nome da coleção
+//cadastroOS será o nome da coleção
 
 module.exports = model('CadastroOS', cadastroOS)
 
